@@ -11,7 +11,7 @@ import BeachAccessIcon from '@mui/icons-material/BeachAccess';
 export default function Rightbar() {
   return (
       <>
-      <h2 style={{color:'white', textWeight:'bold'}}>Components</h2>
+      <h2 className='text-2xl font-bold text-gray-100'>Components</h2>
         <List sx={{ width: '100%', maxWidth: 360}}>
             <ListItem>
                 <ListItemAvatar>
